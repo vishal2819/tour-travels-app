@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MenuItems } from "./MenuItems";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -17,10 +18,10 @@ const Navbar = () => {
           const { title, url, cName, icon } = items;
           return (
             <li className={cName} key={index}>
-              <a href={url} className={cName}>
+              <Link to={url} className={cName}>
                 <i className={icon}></i>
                 {title}
-              </a>
+              </Link>
             </li>
           );
         })}
