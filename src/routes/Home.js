@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Destination from "../components/Destination";
+import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
@@ -15,6 +17,8 @@ const Home = () => {
         btnText="Travel Plan"
       />
       <Destination />
+      <Trip />
+      <Footer />
     </>
   );
 };

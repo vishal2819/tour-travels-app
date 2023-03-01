@@ -24,9 +24,9 @@ img {
   width: 100%;
 }
 .hero-text h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  color: #FFB100;
+  font-size: 3.5rem;
+  font-weight: 1000;
+  color: #FF8B13;
   -webkit-background-clip: text;
 }
 .hero-text p {
