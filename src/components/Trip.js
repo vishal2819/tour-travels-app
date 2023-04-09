@@ -1,14 +1,14 @@
 import TripData from "./TripData";
-import Trip1 from "/assets/trip1card";
-import Trip2 from "/assets/tripcard2";
-import Trip3 from "/assets/tripcard3";
+import Trip1 from '../assets/3.jpg'
+import Trip2 from '../assets/4.jpg'
+import Trip3 from '../assets/5.jpg'
 import "./TripStyles.css";
 const Trip = () => {
   return (
     <div className="trip">
       <h1>Recent Trips</h1>
       <p>You can discover unique destination using Google Maps.</p>
-      <div className="tripcard">
+      <div className="tripcard ">
         <TripData
           image={Trip1}
           heading="Trip in Indonesia"
