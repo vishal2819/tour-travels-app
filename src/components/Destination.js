@@ -1,6 +1,10 @@
 import React from "react";
 import "./DestinationStyles.css";
 import DestinationData from "./DestinationData";
+import img1 from "../assets/3.jpg";
+import img2 from "../assets/4.jpg";
+import img3 from "../assets/5.jpg";
+import img4 from "../assets/6.jpg";
 const Destination = () => {
   return (
     <div className="destination">
@@ -15,17 +19,17 @@ const Destination = () => {
       there's so much that's beyond our control, like voltage
       fluctuations. If the worst comes to the worst, you may have to come
       up in a 4*4 vehicle or take a walk while we carry your luggage up"
-        img1="https://a0.muscache.com/im/pictures/6c77fd63-ea25-4eb5-ae1d-71bae29a2ee2.jpg?im_w=720"
+        img1={img1}
         alt="Nature"
-        img2="https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/197cde9c-273e-4aac-92ec-a8dabc20cd8e.jpeg?im_w=720"
+        img2={img2}
       />
       <DestinationData
         className="first-des-reverse"
         heading="Himachal Pradesh,Shimla"
         text="Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and resorts such as Dalhousie. Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan presence. This is reflected in its Buddhist temples and monasteries, as well as its vibrant Tibetan New Year celebrations. The region is also well known for its trekking, climbing and skiing areas"
-        img1="https://a0.muscache.com/im/pictures/6c77fd63-ea25-4eb5-ae1d-71bae29a2ee2.jpg?im_w=720"
+        img3={img3}
         alt="Nature"
-        img2="https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/197cde9c-273e-4aac-92ec-a8dabc20cd8e.jpeg?im_w=720"
+        img4= {img4}
       />
     </div>
   );
