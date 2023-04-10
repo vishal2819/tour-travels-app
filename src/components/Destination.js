@@ -1,10 +1,9 @@
 import React from "react";
 import "./DestinationStyles.css";
 import DestinationData from "./DestinationData";
-import img1 from "../assets/3.jpg";
+import img1 from "../assets/5.jpg";
 import img2 from "../assets/4.jpg";
-import img3 from "../assets/5.jpg";
-import img4 from "../assets/6.jpg";
+
 const Destination = () => {
   return (
     <div className="destination">
@@ -27,9 +26,9 @@ const Destination = () => {
         className="first-des-reverse"
         heading="Himachal Pradesh,Shimla"
         text="Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and resorts such as Dalhousie. Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan presence. This is reflected in its Buddhist temples and monasteries, as well as its vibrant Tibetan New Year celebrations. The region is also well known for its trekking, climbing and skiing areas"
-        img3={img3}
+        img1="https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg?auto=compress&cs=tinysrgb&w=600"
         alt="Nature"
-        img4= {img4}
+        img2="https://images.pexels.com/photos/2792601/pexels-photo-2792601.jpeg?auto=compress&cs=tinysrgb&w=600"
       />
     </div>
   );

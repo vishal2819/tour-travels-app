@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import Form from "./Form";
 import "./Navbar.css";
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
+  const [showForm, setShowForm] = useState(false);
   const handleClick = () => {
     setClicked(!clicked);
   };
+  const handleForm = () => {
+    setShowForm(!showForm);
+    return <Form />;
+  };
+
   return (
     <nav className="nav-items">
       <h1 className="navbar-logo">Trippy</h1>
@@ -25,7 +32,7 @@ const Navbar = () => {
             </li>
           );
         })}
-        <button>Sign Up</button>
+        <button type="submit" onClick = {handleForm}>Sign Up</button>
       </ul>
     </nav>
   );
